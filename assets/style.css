@@ -25,3 +25,30 @@ body, html {
   #navbar1 {
       background-color: rgba(0,0,0,0.5);
   }
+
+  .card-title {
+    color: gray!important;
+    background-color: rgba(255, 255, 255, 0.5)!important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+.card-main {
+    margin-top: 75px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    /* padding-left: 30px; */
+    margin-left: 30px;
+}
+
+img {
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+.card-body {
+    margin-left: 30px;
+    
+}

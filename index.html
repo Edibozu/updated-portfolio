@@ -3,46 +3,99 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>My Undated Protfolio</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="stylesheet" href="./assets/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <!-- Image used for this page's background -->
     <style>
-        body {
-          background-image: url(
-              ./assets/background2.jpg
-          );
-        }
-      </style>
+      body {
+        background-image: url(./assets/background2.jpg);
+      }
+    </style>
   </head>
   <body>
     <!-- <h1>Hello World!</h1> -->
-    <div class="banner">
-        <nav class="navbar navbar-expand-lg navbar-dark" id="navbar1">
-            <a class="navbar-brand" style="color: white" href="#">Eduardo Pineda</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ml-auto">
-                <a class="nav-link" href="#">Contact</a>
-                <a class="nav-link" href="#">Portfolio</a>
-                <a class="nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
-              </div>
-            </div>
-          </nav>
-        <div class="banner-text">
-          <h1 style="font-size:50px">I am Eduardo Pineda</h1>
-          <p>and I'm an aspiring Web Developer.</p>
-        </div>
-      </div>
 
+    <!-- Navbar place here with the links to navigate between pages -->
+    <div class="banner">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="navbar1">
+        <a class="navbar-brand" style="color: white" href="#">Eduardo Pineda</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- The links are somewhat of a different color to show which one the user is currently on -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link active" href="./index.html"
+              >About Me<span class="sr-only">(current)</span></a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- Created a big, in your face banner to introduce myself and what I am about -->
+      <div class="banner-text">
+        <h1 style="font-size: 50px">I am Eduardo Pineda</h1>
+        <p>and I'm an aspiring Web Developer.</p>
+      </div>
+    </div>
+    <!-- The main card that will hold the important information from this page -->
+    <main class="card-main" style="width: 850px">
+      <h2 class="card-title">About Me</h2>
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <!-- Image of myself to let future visitors who I am -->
+          <img
+            src="./assets/about-me.jpeg"
+            class="card-img"
+            alt="Eduardo Pineda"
+          />
+        </div>
+        <!-- A small summary of myself of who I am, what I've been through, and also what I'm hoping to accomplish. -->
+        <article class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">
+              My name is Eduardo Pineda, and live in Augusta, GA with my
+              girlfriend, and our two cats, Cocoa & Pepe. I enjoy watching
+              sports(basketball & football), playing video games, traveling,
+              learning new skills, and trying as many foods as i possibly can.
+              Currently enrolled in Georgia Tech's Coding Boot Camp, with the
+              hopes of becoming a full-stack web developer. Decided to pursue
+              this path after not finding my calling while working in many
+              dirrent fields, which include: construction, retail, customer
+              service, management, and public service. Previous job experience
+              shows my versatility and adaptability to changing environments and
+              situations.
+            </p>
+            <p class="card-text-2">
+              While still in the process of completing my program, I'm doing
+              everything in my power, to learn as much as possible, about Front
+              and Back End Developement. Placing full confidence in myself to be
+              successful in my future endeavors. Provided is my porfolio,
+              showing a number of assignments that have kept me quite busy and
+              show my progress as a student. Please check out my Contact Page,
+              which provies my contact information and numerous links.
+            </p>
+          </div>
+        </article>
+      </div>
+    </main>
 
     <script src="./assets/script.js" async defer></script>
   </body>
