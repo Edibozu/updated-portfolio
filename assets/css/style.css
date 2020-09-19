@@ -64,3 +64,25 @@ img {
     margin-left: 30px;
     
 }
+
+#contact-card {
+  margin-top: 75px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  /* margin-left: 30px; */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+ul li { padding: 5px 0px;
+  font-size: 20px;
+
+}
+
+#contact-text {
+  padding-bottom: 50px;
+}
+
+.gif {
+  align-content: center;
+
+}
