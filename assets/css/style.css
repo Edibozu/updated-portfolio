@@ -23,6 +23,15 @@ body, html {
     background-size: cover;
     position: relative;
   }
+
+  .banner-portfolio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner\ \(1\).jpg);
+    height: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
   
   
   .banner-text {
@@ -85,4 +94,16 @@ ul li { padding: 5px 0px;
 .gif {
   align-content: center;
 
+}
+
+.port-container {
+  margin-top: 75px;
+}
+
+.card-text {
+  padding-bottom: 25px;
+}
+
+#btn {
+  margin-left: 100px;
 }
