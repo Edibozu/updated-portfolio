@@ -10,19 +10,19 @@ Below, screenshots of deployed site are provided
 
 ## Landing/About Me
 
-![Application Screenshot](../images/aboutme1.png)
+![Application Screenshot](./assets/images/aboutme1.png)
 
 This is the landing page where I provide a summary about myself, and what i hope to accomplish in the future.
 
 ## Contact Me
 
-![Application Screenshot](../images/contact1.png)
+![Application Screenshot](./assets/images/contact1.png)
 
 This is my contact page with has every possible way to get in touch with me, all with working links
 
 ## Portfolio
 
-![Application Screenshot](../images/port1.png)
+![Application Screenshot](./assets/images/port1.png)
 
 This updated portfolio show screenshots of some of my assignments, with title, description, and button that sends the user to the deployed link where they can be tested.
 
