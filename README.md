@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a continuation of our 2nd assignment, where we attempted to create our first portfolio with our limited knowledge of HTML and CSS. Two weeks later, we come back with the chance to polish and showcased what we have learned in limited time. This time around, screenshots and links to other assignments are provided as well as updated HTML and CSS techniques, and all personal links to keep up with my progress and personal growth. So excited to keep on improving!
+My Updated Portfolio, where I am able to showcase even more assignments, and now, 2 projects. The assignments showcased are the one I'm most proud of, and also have been betworking with my classmates and that will show in my updated LinkedIn and GitHub.
 
 ## Images
 
